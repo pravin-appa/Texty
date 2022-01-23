@@ -59,10 +59,17 @@ export default function About(props) {
             </div>
             
             <div >
-               <div class="row">
-                <div class="column">
-                    <div class="card">
-                            <img src={require('./pravin.jpg')} class="img-fluid rounded mx-auto d-block" alt="pravin" width="100%" />
+               <div className="row">
+                <div className="column">
+                    <div className="card">
+                            <img src={require('./pravin.jpg')} className="img-fluid rounded mx-auto d-block" alt="pravin" width="100%"  />
+                            <div class="container">
+                                    <h2>Pravin S</h2>
+                                    <p class="title">programmer</p>
+                                    
+                                    <p>pravin@gmail.com</p>
+                                    <p><button class="button">Contact</button></p>
+                                </div>
                             </div>
                 </div>
                  </div>
