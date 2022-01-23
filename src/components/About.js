@@ -12,6 +12,8 @@ export default function About(props) {
     }
     
     return (
+        
+    
         <div className="container">
             <h1 className="my-3" style={{color: props.mode ==='dark'?'white':'#042743'}}>About Us</h1>
             <div className="accordion" id="accordionExample">
@@ -53,8 +55,26 @@ export default function About(props) {
                     </div>
                     </div>
                 </div>
+                
             </div>
-
+            
+            <div >
+               <div class="row">
+                <div class="column">
+                    <div class="card">
+                            <img src={require('./pravin.jpg')} class="img-fluid rounded mx-auto d-block" alt="pravin" width="100%" />
+                            </div>
+                </div>
+                 </div>
         </div>
+
+
+
+     </div>
+        
+
+      
+     
+
     )
 }
